@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+.btn {
+  position: absolute;
+  padding: 5px 10px;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.99);
+}
+
+.wrap {
+  display: flex;
+  height: 96vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Special Elite", "cursive";
+}
